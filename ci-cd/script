@@ -1,0 +1,2 @@
+kubectl create deployment hellowhale --image vinay4uv/hello-whale 
+kubectl expose deployment/hellowhale --port=80 --name=hellowhalesvc --type=LoadBalancer
